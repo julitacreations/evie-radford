@@ -35,17 +35,26 @@
   } */
 
   @font-face {
-    font-family: 'FontName';
-    src: url('/fonts/FontName.woff2') format("woff2"), /* WOFF2 tried first */
-         url('/fonts/FontName.woff') format("woff"), /* WOFF tried second */
-         url('/fonts/FontName.ttf') format("truetype"), /* TTF */ 
-         url('/fonts/FontName.eot') format("embedded-opentype"); /* EOT for Internet Explorer */ 
+    font-family: 'Onsite';
+    src: url('/fonts/OnsiteStandard-Regular.woff2') format("woff2"), /* WOFF2 tried first */
+         url('/fonts/OnsiteStandard-Regular.woff') format("woff"); /* WOFF tried second */ 
          font-weight: normal;
          font-style: normal;
          -webkit-font-smoothing: antialiased;
          -moz-osx-font-smoothing: grayscale;
   }
-  
+
+
+  @font-face {
+    font-family: 'Roslindale';
+    src: url('/fonts/RoslindaleDisplayCondensed-Light.woff2') format("woff2"), /* WOFF2 tried first */
+         url('/fonts/RoslindaleDisplayCondensed-Light.woff') format("woff"); /* WOFF tried second */
+      
+         font-weight: normal;
+         font-style: normal;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+  }
   
   html {
     scroll-behavior: smooth;
@@ -55,7 +64,7 @@
     @apply font-body font-normal overflow-x-hidden;
   }
   
-  h1, h2, h3, h4, h5, h6 { @apply font-serif font-normal; }
+  h1, h2, h3, h4, h5, h6 { @apply font-serif font-normal antialiased; }
 
   .svh {
     height: 100vh;
@@ -64,7 +73,7 @@
 
   /* buttons and navs */
 
-  .button    { @apply inline-block px-4 py-2 border border-black transition;  }
+  .button    { @apply inline-block px-4 py-2 transition;  }
   .button:hover { @apply bg-dark }
 
   .nav-items { @apply flex justify-around items-center uppercase font-normal; }

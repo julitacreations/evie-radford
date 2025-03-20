@@ -22,12 +22,12 @@ instagram_feed:
     - image: /images/photo-1.jpg
     - image: /images/photo-2.jpg
 brand:
-  primary_color: '#B1BAB5'
-  secondary_color: '#5F9595'
-  light_color: '#FFFFFF'
+  primary_color: '#8C110C'
+  secondary_color: 
+  light_color: 
   dark_color: 
   bright_color:
-  primary_logo_path: /images/brand_logo.png
+  primary_logo_path: /images/evie-radford-socials-primary-logo-paper.png
   secondary_logo_path:
   submark_logo_path:
 technical:

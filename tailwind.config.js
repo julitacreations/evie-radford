@@ -8,9 +8,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      serif: ['Font Name', 'serif'],
-      sans: ['Font Name', 'sans-serif'],
-      body:  ['Font Name', 'sans-serif'],
+      serif: ['Roslindale', 'serif'],
+      sans: ['Onsite', 'sans-serif'],
+      body:  ['Onsite', 'sans-serif'],
     },
     safelist: [
       {
